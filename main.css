@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic");
+* {
+  padding: 0;
+  margin: 0;
+}
+/* общие стили для всего сайта */
+html {
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+li {
+  list-style: none;
+}
+h2 {
+  font-size: 2.14em;
+}
+.link__button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+/* конец общих стилей для всего сайта*/
+.header {
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+.header__menu-link {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header__menu-link:hover {
+  color: #cf1569;
+}
+.image-content {
+  display: block;
+  margin: 0 auto;
+}
+.choose {
+  background-image: url("images/choosen__bg.png");
+  background-position: 640px 80px;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+}
+.choose__wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose__image {
+  width: auto;
+}
+.choose__content {
+  width: 50%;
+  padding-left: 40px;
+}
+.choose__content-head {
+  margin-bottom: 60px;
+}
+.choose__content-text {
+  margin-bottom: 10px;
+}
+.amoret {
+  background-image: url("images/amoret_bg.jpg");
+}
+.amoret__wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.amoret__content {
+  width: 50%;
+  margin-right: 30px;
+}
