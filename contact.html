@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+	<title>Контакты</title>
+</head>
+
+<body>
+	<!-- Шапка сайьа -->
+	<header class="header">
+		<div class="header__wrap">
+			<div class="header__logo1">
+				<img src="images/logo1.png" alt="amoret" class="header__logo1-image">
+			</div>
+			<nav class="header__menu">
+				<li class="header__menu-item">
+					<a href="index.html" class="header__menu-link">Главная</a>
+				</li>
+				<li class="header__menu-item">
+					<a href="brend.html" class="header__menu-link">Бренды</a>
+				</li>
+				<li class="header__menu-item">
+					<a href="Partnership.html" class="header__menu-link">Партнерство</a>
+				</li>
+				<li class="header__menu-item">
+					<a href="Developments.html" class="header__menu-link">События</a>
+				</li>
+				<li class="header__menu-item">
+					<a href="contact.html" class="header__menu-link">Контакты</a>
+				</li>
+			</nav>
+			<div class="header__logo2">
+				<img src="images/logo2.gif" alt="Dentelle" class="header__logo2-image">
+			</div>
+		</div>
+	</header>
+
+	<section class="contact">
+		<div class="contact__item">
+			<div class="contact__item-block">
+				<span class="contact__item-name">
+					Адрес:
+				</span>
+				<span class="contact__item-text">
+					г. Москва,  ул. Комсомольская площадь 3/30 стр.4, оф. 421
+				</span>
+			</div>
+			<div class="contact__item-block">
+				<span class="contact__item-name">
+					Тел.:
+				</span>
+				<span class="contact__item-text">
+					+7 (499) 5500 801 <br />
+					+7 (963) 6416 021 <br />
+					+7 (977) 8090 682
+				</span>
+			</div>
+			<div class="contact__item-block">
+				<span class="contact__item-name">
+					E-mail:
+				</span>
+				<span class="contact__item-text">
+					smartsales@inbox.ru
+				</span>
+			</div>
+			<div class="contact__item-block">
+				<p class="contact__item-question">
+					Остались вопросы
+				</p>
+				<a href="" class="contact__item-link link__button modal" id="contact_modal">Обратный звонок</a>
+			</div>
+		</div>
+		<div class="contact__item">
+			<img src="images/contact_image.jpg" alt="Контакты" class="contact__item-image">
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer__wrap">
+			<nav class="footer__menu">
+				<li class="footer__menu-item">
+					<a href="index.html" class="footer__menu-link">Главная</a>
+				</li>
+				<li class="footer__menu-item">
+					<a href="brend.html" class="footer__menu-link">Бренды</a>
+				</li>
+				<li class="footer__menu-item">
+					<a href="Partnership.html" class="footer__menu-link">Партнерство</a>
+				</li>
+				<li class="footer__menu-item">
+					<a href="Developments.html" class="footer__menu-link">События</a>
+				</li>
+				<li class="footer__menu-item">
+					<a href="contact.html" class="footer__menu-link">Контакты</a>
+				</li>
+			</nav>
+			<div class="footer__phone">
+				<a href="tel:+7 (499) 5500 801" class="footer__phone-text">+7 (499) 5500 801</a>
+			</div>
+			<div class="footer__copy">
+				<p class="footer__copy-text">
+					Copyright © 2017 Представительно Amoret и Dentelle.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<div id="contact_modal_win">
+		<div class="modal__content">
+			<span id="close_contact_modal">
+				<i class="fa fa-window-close-o fa-2x" aria-hidden="true"></i>
+			</span>
+			<form class="modal__content-form">
+				<p class="modal__content-name">
+					Ваше имя
+				</p>
+				<input type="text" name="" /><br/>
+				<p class="modal__content-name">
+					Ваше телефон
+				</p>
+				<input type="text" name="" /><br/>
+				<p class="modal__content-name">
+					Ваш E-mail
+				</p>
+				<input type="text" name="" /><br/>
+				<input type="submit" class="link__button" name="" />
+			</form>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+    <script src="js/open_modal.js"></script>
+
+</body>
+</html>
