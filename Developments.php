@@ -1,42 +1,6 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>События</title>
-</head>
-
-<body>
-	<!-- Шапка сайьа -->
-	<header class="header">
-		<div class="header__wrap">
-			<div class="header__logo1">
-				<img src="images/logo1.png" alt="amoret" class="header__logo1-image">
-			</div>
-			<nav class="header__menu">
-				<li class="header__menu-item">
-					<a href="index.html" class="header__menu-link">Главная</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="brend.html" class="header__menu-link">Бренды</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="Partnership.html" class="header__menu-link">Партнерство</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="Developments.html" class="header__menu-link">События</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="contact.html" class="header__menu-link">Контакты</a>
-				</li>
-			</nav>
-			<div class="header__logo2">
-				<img src="images/logo2.gif" alt="Dentelle" class="header__logo2-image">
-			</div>
-		</div>
-	</header>
+<?php
+		include('header.php');
+	?>
 	<section class="develop">
 		<div class="develop__item">
 			<img src="images/develop_item_image.jpg" alt="Событие" class="develop__item-image">
@@ -44,7 +8,7 @@
 			<p class="develop__item-text">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione deleniti ex optio quibusdam nobis sit, vitae non blanditiis temporibus tenetur voluptatum porro eveniet, iusto officia iure perferendis doloribus consectetur, inventore facere excepturi nihil incidunt. Maxime illo inventore fugiat, excepturi mollitia eum ut provident voluptas, quos voluptatem quae aspernatur eveniet nihil.
 			</p>
-			<a href="event_single.html" class="develop__item-link link__button">Подробней</a>
+			<a href="event_single.php" class="develop__item-link link__button">Подробней</a>
 		</div>
 		<div class="develop__item">
 			<img src="images/develop_item_image.jpg" alt="Событие" class="develop__item-image">
@@ -52,7 +16,7 @@
 			<p class="develop__item-text">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione deleniti ex optio quibusdam nobis sit, vitae non blanditiis temporibus tenetur voluptatum porro eveniet, iusto officia iure perferendis doloribus consectetur, inventore facere excepturi nihil incidunt. Maxime illo inventore fugiat, excepturi mollitia eum ut provident voluptas, quos voluptatem quae aspernatur eveniet nihil.
 			</p>
-			<a href="event_single.html" class="develop__item-link link__button">Подробней</a>
+			<a href="event_single.php" class="develop__item-link link__button">Подробней</a>
 		</div>
 		<div class="develop__item">
 			<img src="images/develop_item_image.jpg" alt="Событие" class="develop__item-image">
@@ -60,7 +24,7 @@
 			<p class="develop__item-text">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione deleniti ex optio quibusdam nobis sit, vitae non blanditiis temporibus tenetur voluptatum porro eveniet, iusto officia iure perferendis doloribus consectetur, inventore facere excepturi nihil incidunt. Maxime illo inventore fugiat, excepturi mollitia eum ut provident voluptas, quos voluptatem quae aspernatur eveniet nihil.
 			</p>
-			<a href="event_single.html" class="develop__item-link link__button">Подробней</a>
+			<a href="event_single.php" class="develop__item-link link__button">Подробней</a>
 		</div>
 		<div class="develop__item">
 			<img src="images/develop_item_image.jpg" alt="Событие" class="develop__item-image">
@@ -68,7 +32,7 @@
 			<p class="develop__item-text">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione deleniti ex optio quibusdam nobis sit, vitae non blanditiis temporibus tenetur voluptatum porro eveniet, iusto officia iure perferendis doloribus consectetur, inventore facere excepturi nihil incidunt. Maxime illo inventore fugiat, excepturi mollitia eum ut provident voluptas, quos voluptatem quae aspernatur eveniet nihil.
 			</p>
-			<a href="event_single.html" class="develop__item-link link__button">Подробней</a>
+			<a href="event_single.php" class="develop__item-link link__button">Подробней</a>
 		</div>
 
 		<div class="develop__paginav">
@@ -102,32 +66,8 @@
 		</div>
 	</section>
 
-	<footer class="footer">
-		<div class="footer__wrap">
-			<nav class="footer__menu">
-				<li class="footer__menu-item">
-					<a href="index.html" class="footer__menu-link">Главная</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="brend.html" class="footer__menu-link">Бренды</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="Partnership.html" class="footer__menu-link">Партнерство</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="Developments.html" class="footer__menu-link">События</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="contact.html" class="footer__menu-link">Контакты</a>
-				</li>
-			</nav>
-			<div class="footer__phone">
-				<a href="tel:+7 (499) 5500 801" class="footer__phone-text">+7 (499) 5500 801</a>
-			</div>
-			<div class="footer__copy">
-				<p class="footer__copy-text">
-					Copyright © 2017 Представительно Amoret и Dentelle.
-				</p>
-			</div>
-		</div>
-	</footer>
+	<?php
+		include('footer.php');
+	?>
+</body>
+</html>

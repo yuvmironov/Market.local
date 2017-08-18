@@ -1,43 +1,6 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>Бренды</title>
-</head>
-
-<body>
-	<!-- Шапка сайьа -->
-	<header class="header">
-		<div class="header__wrap">
-			<div class="header__logo1">
-				<img src="images/logo1.png" alt="amoret" class="header__logo1-image">
-			</div>
-			<nav class="header__menu">
-				<li class="header__menu-item">
-					<a href="index.html" class="header__menu-link">Главная</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="brend.html" class="header__menu-link">Бренды</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="Partnership.html" class="header__menu-link">Партнерство</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="Developments.html" class="header__menu-link">События</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="contact.html" class="header__menu-link">Контакты</a>
-				</li>
-			</nav>
-			<div class="header__logo2">
-				<img src="images/logo2.gif" alt="Dentelle" class="header__logo2-image">
-			</div>
-		</div>
-	</header>
-	<!-- Конец шапки сайта -->
+<?php
+	include('header.php');
+?>
 	<!-- Контент-->
 	<section class="brand">
 		<div class="brand__header">
@@ -200,32 +163,8 @@
 		</div>
 	</section>
 
-	<footer class="footer">
-		<div class="footer__wrap">
-			<nav class="footer__menu">
-				<li class="footer__menu-item">
-					<a href="index.html" class="footer__menu-link">Главная</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="brend.html" class="footer__menu-link">Бренды</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="Partnership.html" class="footer__menu-link">Партнерство</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="Developments.html" class="footer__menu-link">События</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="contact.html" class="footer__menu-link">Контакты</a>
-				</li>
-			</nav>
-			<div class="footer__phone">
-				<a href="tel:+7 (499) 5500 801" class="footer__phone-text">+7 (499) 5500 801</a>
-			</div>
-			<div class="footer__copy">
-				<p class="footer__copy-text">
-					Copyright © 2017 Представительно Amoret и Dentelle.
-				</p>
-			</div>
-		</div>
-	</footer>
+	<?php
+		include('footer.php');
+	?>
+	</body>
+	</html>

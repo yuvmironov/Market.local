@@ -1,42 +1,6 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>Одно событие</title>
-</head>
-
-<body>
-	<!-- Шапка сайьа -->
-	<header class="header">
-		<div class="header__wrap">
-			<div class="header__logo1">
-				<img src="images/logo1.png" alt="amoret" class="header__logo1-image">
-			</div>
-			<nav class="header__menu">
-				<li class="header__menu-item">
-					<a href="index.html" class="header__menu-link">Главная</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="brend.html" class="header__menu-link">Бренды</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="Partnership.html" class="header__menu-link">Партнерство</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="Developments.html" class="header__menu-link">События</a>
-				</li>
-				<li class="header__menu-item">
-					<a href="contact.html" class="header__menu-link">Контакты</a>
-				</li>
-			</nav>
-			<div class="header__logo2">
-				<img src="images/logo2.gif" alt="Dentelle" class="header__logo2-image">
-			</div>
-		</div>
-	</header>
+<?php
+		include('header.php');
+	?>
 	
 	<section class="event">
 		<div class="event__content">
@@ -58,36 +22,12 @@
 			<p class="event__content-text">
 				adipisci tempora? Quos dicta mollitia ducimus odio dignissimos cum voluptatibus, laboriosam deserunt minus, aut, saepe id quaerat corporis dolorum earum possimus natus, est. Neque magni cumque laborum eos repellat quas similique, molestiae odit! Obcaecati excepturi tempora voluptate maiores voluptatum neque possimus, repudiandae nemo distinctio adipisci nostrum blanditiis, corrupti consequuntur atque! Asperiores consequuntur, eligendi fugit, earum, fugiat vel voluptate dolores nobis voluptatibus odit nihil magnam quia voluptatum cum corporis a molestias fuga error eius blanditiis. Voluptatem labore accusantium nisi quis doloremque mollitia dolores! At quos, beatae. Porro totam quasi atque sint voluptatem quibusdam deserunt nam harum qui, iure similique at est eligendi, doloribus, voluptas error. Laboriosam, minus accusamus pariatur? Illo doloribus quisquam in sequi repudiandae ut blanditiis, numquam, incidunt dignissimos, quam, quae repellat. Asperiores, dolores, dolorem! Laborum ipsa reprehenderit quia eum velit veniam aliquid, nobis doloribus nostrum ab sed sit cupiditate, quis adipisci repellendus accusamus. Nulla voluptatibus voluptatum amet, tempora natus, suscipit nesciunt numquam eligendi asperiores possimus cumque repudiandae, saepe est quaerat optio. Rerum vitae labore, placeat beatae. Excepturi at, vero consequatur accusantium ad 
 			</p>
-			<a href="Developments.html" class="event__content-link link__button">Вернуться к другим событиям</a>
+			<a href="Developments.php" class="event__content-link link__button">Вернуться к другим событиям</a>
 		</div>
 	</section>
 
-	<footer class="footer">
-		<div class="footer__wrap">
-			<nav class="footer__menu">
-				<li class="footer__menu-item">
-					<a href="index.html" class="footer__menu-link">Главная</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="brend.html" class="footer__menu-link">Бренды</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="Partnership.html" class="footer__menu-link">Партнерство</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="Developments.html" class="footer__menu-link">События</a>
-				</li>
-				<li class="footer__menu-item">
-					<a href="contact.html" class="footer__menu-link">Контакты</a>
-				</li>
-			</nav>
-			<div class="footer__phone">
-				<a href="tel:+7 (499) 5500 801" class="footer__phone-text">+7 (499) 5500 801</a>
-			</div>
-			<div class="footer__copy">
-				<p class="footer__copy-text">
-					Copyright © 2017 Представительно Amoret и Dentelle.
-				</p>
-			</div>
-		</div>
-	</footer>
+	<?php
+		include('footer.php');
+	?>
+</body>
+</html>
